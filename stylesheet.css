@@ -1,0 +1,248 @@
+html, body, div {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.text-right {
+    text-align: right;
+}
+.or-moer {
+    position: relative;
+}
+.or-moer::after {
+    content: "~";
+    position: absolute;
+    top:0;
+    right: -1em;
+}
+
+.hero {
+    background-image: url('./image/bokashi.jpg');
+    background-size: cover;
+    /* background-positionは左右centerを固定*/
+    background-position:center center;
+    height:700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img {
+   width: 400px;
+}
+.hero h1 {
+    font-family: Georgia, serif;
+    color: rgb(252, 251, 248);
+    font-size: 80px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #050000 1px 0 10px;
+    ;
+}
+.hero p span {
+    font-weight: bold;
+    font-size:28px ;
+    border-bottom: 4px solid #faf6f6;
+    padding-bottom:8px;
+}
+.menu-image {
+    width:100%;
+}
+
+.cafe-features {
+    display: flex;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.cafe-feature {
+    box-shadow: 0 6px 10px rgba(0, 0, 0,0.1);
+    padding:32px 80px;
+    width: 522px;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 32px 0;
+}
+.cafe-feature img {
+    width: 220px;
+    margin: 0 auto;
+    display: block;
+}
+.cafe-feature-title {
+    text-align: center;
+    font-size: 20px;letter-spacing: 2px;
+}
+.cafe-description{
+    width: 690px;
+    margin: 0 auto;
+    padding: 0 80px 80px 80px;
+}
+.cafe-description img {
+    width: 180px;
+    margin: 0 auto 40px auto;
+    display: block;
+}
+.cafe-description h3 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.cafe-description p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.cafe-menu {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:80px 0;
+}
+
+.cafe-menu-morning{
+background-image: url('./images/tabitha-turner-KWZ-rg9o76A-unsplash.jpg');
+}
+.cafe-menu-enening {
+    background-image: url('./images/salad-gab97e613b_1280.jpg');
+    margin-bottom: 100px;
+}
+
+.cafe-menu-inner {
+    width: 690px;
+    margin: 0 auto;
+    padding: 56px 0;
+    background-color:rgba(255, 255, 255, 0.88);
+    
+}
+.cafe-menu-inner h3{
+    margin-top: 0;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    font-weight: normal;
+}
+.cafe-menu-inner table {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.cafe-menu-inner p {
+    font-size: 14px;
+    text-align: center;
+    margin: 24px 0;
+}
+.cafe-information {
+    width: 788px;
+    margin: 0 auto 32px auto;
+}
+.cafe-information h3 {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cafe-information-row{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.cafe-information-colium-right {
+    width:415px;
+    padding: 8px 32px;
+    border-left: 1px solid #b7b2b2;
+}
+.cafe-information-colium-right h5 {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #b7b2b2;
+    margin: 0 0 8px 0;
+}
+
+.cafe-information-colium-right p {
+    font-size: 14px;
+    font-weight:normal;
+    line-height: 20px;
+}
+.cafe-information-logo {
+    padding: 0 48px;
+}
+.cafe-information-logo  img {
+    width: 260px;
+}
+.cafe-information-logo p {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+.cafe-information-logo p span {
+    font-size: 23px;
+    border-bottom: 1px solid #b7b2b2;
+    padding: 8px;
+    font-family:serif;
+}
+
+.cafe-map {
+    width: 788px;
+    margin: 0  auto 56px auto;
+}
+.cafe-map iframe {
+    width: 100%;
+    height: 350px;
+    border:0;
+}
+
+.cafe-inquiry {
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.phonenum {
+    text-decoration: none;
+    color: rgb(126, 126, 233);
+}
+
+.cafe-inquiry h5 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;   
+    border-bottom: 1px solid #b7b2b2; 
+    padding-bottom: 16px;
+    margin-bottom: 12px;
+}
+.cafe-inquiry p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 3px;
+}
+.instagrum {
+    text-align: center;
+    margin-bottom: 180px;
+    display: block;
+    text-decoration: none;
+}
+.instagrum:hover {
+    opacity: 0.5;
+}
+.instagrum p {
+    font-size: 14px;
+    color: rgb(240, 62, 184);
+    font-weight: bold;
+}
+.footer {
+    background-color: black;
+    padding: 16px 8px;
+}
+.footer p{
+    margin: 0;
+    color: aliceblue;
+    font-size: 12px;
+}
