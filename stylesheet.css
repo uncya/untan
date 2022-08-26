@@ -89,6 +89,9 @@ header h1{
 	width: 200px;
 	height: 44px;
 	float: left;
+	font-size:50px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-shadow:4px 3px #7aadbe;
 }
 nav{
 	float: right;
