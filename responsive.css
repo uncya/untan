@@ -236,7 +236,7 @@
 .burger {
     width: 60px;
     height: 60px;
-    background-image: url(img/burger.png);
+    background-image: url(burger.png);
     background-size: 44px;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@
     border-radius: 4px;
 }
 .burger.is-active {
-    background-image: url(img/close.png)   
+    background-image: url(close.png)   
 }
 
 
