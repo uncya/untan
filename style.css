@@ -143,7 +143,7 @@ header nav {
     height: 600px;
     background-position: center;
     background-color: blueviolet;
-    background-image:url(logo_02.JPG);
+    background-image:url('logo_02.JPG');
     background-size:cover;
     color: #fff;
     text-align: center;
@@ -194,7 +194,7 @@ header nav {
 .heikei {
     display: flex;
     justify-content: flex-end; 
-    background-image:url(bg_top_service_01.png); 
+    background-image:url('bg_top_service_01.png'); 
     background-repeat: no-repeat;
     width:100%;
     margin-left:40px;
@@ -256,7 +256,7 @@ header nav {
 .reason {
     width: 100%;
     height: 580px;
-    background-image: url(reason_01.JPG);
+    background-image: url('reason_01.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -325,11 +325,11 @@ header nav {
     
 }
 .infoleft {
-    background-image: url(recruit.jpeg);
+    background-image: url('recruit.jpeg');
     background-size: cover;
 }
 .inforight {
-    background-image: url(/company.jpeg);
+    background-image: url('company.jpeg');
     background-size: cover;
 }
 .combtn,
