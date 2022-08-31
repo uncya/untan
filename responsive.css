@@ -229,47 +229,48 @@
     footer {
         height: auto;
     }
+    /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+　　 アコーディオン メニュー
+    ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
     /* バーカー */
 .burger {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-image: url(img/burger.png);
-    background-size: 24px;
+    background-size: 44px;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0 0 0 80px;
+    margin: 0 20px 0 80px;
     cursor: pointer;
     /* バーガーを押下した後もバーガーを隠さない */
     position: relative;
     z-index: 2;
 }
 .burger:hover {
-    background-color: #ddd;
+    background-color: rgb(156, 170, 226);
     border-radius: 4px;
 }
 .burger.is-active {
-    background-image: url(img/close.png)
+    background-image: url(img/close.png)   
 }
-/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-　　 アコーディオン メニュー
-＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
 
 .menu {
     /* vh画面の高さ、vw幅一杯 */
     width: 100vw;
     height: 100vh;
     color: rgb(250, 244, 244);
-    background-color: black;
+    background-color:tomato;
     opacity: 0.9;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* 特定の位置に固定 */
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
-    display: none;
-    
+    display: none;  
 }
 .menu.is-active {
     display: flex;
