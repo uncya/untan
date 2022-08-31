@@ -1,0 +1,424 @@
+/* ========================================
+    　　　　　　　全体   
+========================================= */
+html,body, div{
+    margin: 0;
+    box-sizing: border-box;/* 要調べ*/
+    /* ユーザが指定した文字サイズを正しく表示 */
+    font-size: 100%;
+
+}
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding: 0.4%; */
+}
+    
+a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+   
+}
+img {
+    /* 画像が親要素より大きくなることを防ぐ */
+    max-width: 100%;
+}
+li {
+    list-style-type: none; 
+}
+
+/* ========================================
+    　　　　　　　ヘッダー
+========================================= */
+header {
+    width: 100%;
+    height: 88px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img {
+    width: 230px;
+    height: 60px;
+    padding-left:28px;
+    line-height: 60px;
+}
+header nav {
+    margin: 0;
+    display: inline-block;
+}
+.head-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+.fa-bars{
+   display: none;
+   color: rgb(13, 1, 1);
+}
+
+.a-nav {
+    margin-right:35px;
+    color: black;
+}
+
+.a-nav,
+.recruit,
+.inquiry {
+     line-height: 88px;
+     font-size: 15px;
+     font-weight: bold;
+}
+.recruit,
+.inquiry {
+    width: 180px; 
+    height:88px;
+    display: inline-block;
+    text-align: center; 
+    font-size:13px;
+   
+}
+.recruit {
+    background-color:#0E81B0;
+}
+.inquiry{
+    background-color:#1157A4;
+}
+.hanbar {
+    display: none;
+
+}
+
+
+
+/* ========================================
+    　　　　ヒーローイメージ
+========================================*/ 
+    
+.hero-image {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-color: blueviolet;
+    background-image:url('logo_02.JPG');
+    background-size:cover;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.hero-text {
+    padding: 250px 0;
+    
+}
+.hero-image h2 {
+    /* width: 840px; */
+    font-size: 45px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.hero-image p{
+    font-size: 15px;
+    font-weight:normal;
+    padding-top: 15px;
+   letter-spacing: 2px;
+}
+
+
+/* ========================================
+        サービス
+========================================= */
+.service{ 
+   height:auto;  
+   margin-bottom: 75px;
+}
+.service-text p{
+    margin-bottom:60px;
+}
+.service-text h2{
+    color:#1157A4 ;
+    font-size: 40px;
+    font-weight: noinformal;  
+}
+
+.svwrap {
+    width: 1090px;
+    margin: 0 auto;
+}
+.heikei {
+    display: flex;
+    justify-content: flex-end; 
+    background-image:url('bg_top_service_01.png'); 
+    background-repeat: no-repeat;
+    width:100%;
+    margin-left:40px;
+}
+
+.service-wrapper { 
+    width: 1400px;
+    height: 500px;
+    /* float:right; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-row {
+    width: 340px;
+    height:480px;
+    margin:100px 40px 0 0;
+    box-shadow: 5px 5px 5px #91a8c1;
+    background-color: #fff;
+}
+.service-row img{
+    width: 340px;
+    height: 240px;
+}
+.bottom-text {
+    padding: 0 30px 20px 30px;
+}
+.bottom-text p{
+    color: #91a8c1;
+    font-size: 9px;
+}
+.bottom-text h4 {
+    font-weight: normal;
+    font-size: 17px;
+}
+.bottom-text h5 {
+    color: #2A5381;
+}
+
+
+/* 共通ボタンCSS*/
+.btn{
+ width: 400px;
+ height: 60px;
+ background-color: #1157A4;
+ color: aliceblue;
+ display: inline-block;
+ text-align: center;
+ line-height: 60px;
+}
+.servicebtn {
+    margin: 150px auto 0 auto;
+    display: block;
+  
+}
+
+
+
+.reason {
+    width: 100%;
+    height: 580px;
+    background-image: url('img/reason_01.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.reason-text {
+    width: 50%;
+    height: 580px;
+    background-color: #2A5381;
+    opacity: .8;
+}
+.reason-textcenter {
+    /* width: 400px; */
+    padding: 100px 10px;
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+}
+.big-font {
+    font-size: 35px!important;
+}
+.reason-textcenter h2{
+    /* width: 400px; */
+    font-size: 27px;
+    font-weight: normal;
+    display: block;
+}
+.reason-textcenter p {
+    /* width: 400px; */
+    display: block;
+}
+.reasonbtn {
+    margin:30 auto 0 auto;
+    border: 1px solid #fff;
+}
+/* ========================================
+    　　　　会社案内・採用
+========================================= */
+.info-wrapper{
+    width: 100%;
+    height: auto;
+}
+.info {
+    height: auto;
+    background-color:#F2F3F5; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.infos {
+    width:510px;
+    height: 260px;
+    margin:120px 20px 30px 20px;
+    background-color: antiquewhite; 
+    color: #fff;
+    letter-spacing: 2px;
+    padding-top: 90px;
+}
+.infos h3 {
+    font-size:35px;
+    font-weight: normal;
+    border-bottom: 1px solid #fff;
+    display:inline-block;
+    margin: 0;
+    
+}
+.infoleft {
+    background-image: url('recruit.jpeg');
+    background-size: cover;
+}
+.inforight {
+    background-image: url('company.jpeg');
+    background-size: cover;
+}
+.combtn,
+.recbtn {
+   margin: 20px auto 100px auto;
+}
+.news {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.news-title {
+    margin-right: 120px;
+}
+.news-title h2 {
+    font-size: 35px;
+    font-weight: normal;
+    color: #88A3CD;
+}
+.news-title a{
+    color: black;
+}
+.news-title a span {
+    color:#4A77B5 ;
+    text-decoration: none;
+}
+.news-bord th {
+    color:#1157A4 ;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+.news-bord td {
+    color: black;
+}
+
+.contact{
+    height:auto;
+    background-color:#1157A4; 
+    text-align: center;
+    color: #fff;
+    padding: 90px 0;
+}
+.contact h2{
+    font-size: 35px;
+    font-weight: normal;
+}
+.contact a {
+    font-size: 30px;
+    
+}
+.recruitbtn {
+   margin: 35px auto 35px auto;
+   border: 1px solid #fff;
+   text-align: center;
+}
+.footer{
+   width: 1080px;
+   height: auto; 
+   display: flex; 
+   flex-wrap: wrap;
+   margin: 0 auto;
+   padding: 30px 0 135px 0;
+   border-bottom: 1px solid #4A77B5;
+}
+.fot-logo {
+    width: 230px;
+    height: 37px;
+    padding-right: 300px;
+}
+.box-adress h3 {
+    margin: 0;
+}
+.box-adress p{
+    width: 165px;
+    margin: 0;
+    font-size: 13px;
+    padding: 3px 8px;
+}
+.fot-list {
+    height: 82px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.fot-list a{
+    color: #2A5381;
+    padding:40px 30px;
+    display: inline-block;
+    font-size: 15px;
+}
+footer{
+  width: 100%;
+  height: 65px; 
+  background-color:#F2F3F5; 
+  
+}
+.fot-wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+}
+.fot-left {
+    display: flex;
+}
+.fot-left p {
+    margin-right: 30px;
+}
+.fot-right {
+    display: inline-block;
+}
+
+/* アコーディオン */
+.menu {
+    display: none;
+   
+}
+
