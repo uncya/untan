@@ -14,7 +14,7 @@
 
     <body>
         <header class="wrapper">
-           <img src="./img/logo-dummy.png" alt="YOSHIDA INSATSU">
+           <img src="./img/logo-dummy.png" alt="ダミーテキスト">
            <nav>
             <ul class="head-list">
                 <li><a class="a-nav" href="#">HOME</a></li>
@@ -25,6 +25,7 @@
                 <li><a class="recruit" href="#">採用情報</a></li>
                 <li><a class="inquiry" href="#">お問い合わせ(採用専用)</a></li>
             </ul>
+            <!-- ここからアコーディオン -->
             <div class="burger"></div>
                 <div class="menu">
                     <ul class="click-head">
@@ -37,6 +38,7 @@
                         <li><a class="menus" href="#">お問い合わせ(採用専用)</a></li>
                     </ul>
                 </div>
+            <!-- ここまでアコーディオン -->
            </nav>
         </header>
 
@@ -213,9 +215,10 @@
                 </div>
              </div>
         </footer>
+        <!-- ここからJQ -->
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script>
-            // バーガーをクリックしたらメニューにis-activeがなければをふよする、あれば外す。
+            // バーガーをクリックしたらメニューにis-activeがなければを付与する、あれば外す。
             $('.burger').click(function
             (){
                 $(".burger").toggleClass("is-active");
