@@ -147,13 +147,16 @@ header nav {
    margin-bottom: 75px;
 }
 .service-text p{
-    margin-bottom:60px;
+    margin-bottom:0px;
 }
 .service-text h2{
     color:#1157A4 ;
     font-size: 40px;
     font-weight: noinformal;  
+    margin-bottom:0;
 }
+.service-text h4 {
+    margin-top:0;
 
 .svwrap {
     width: 1090px;
@@ -240,7 +243,7 @@ header nav {
     padding: 100px 10px;
     display: block;
     color: #fff;
-    margin: 0 auto;
+    text-align: center;
 }
 .big-font {
     font-size: 35px!important;
