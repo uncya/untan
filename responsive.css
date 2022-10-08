@@ -1,61 +1,58 @@
-@media(max-width:670px){
-    .wrapper {
-        width: 100%;
-    }
+@media (max-width: 670px) {
+  .wrapper {
+    width: 100%;
+  }
 
-    .head-list {
-        display: none;
-    }
-    
-   .hero-image {
+  .head-list {
+    display: none;
+  }
+
+  .hero-image {
     margin: 0 auto;
-   }
-   .hero-text {
+  }
+  .hero-text {
     text-align: center;
-    word-break:normal;
-    }
-   .hero-text h2 {
+    word-break: normal;
+  }
+  .hero-text h2 {
     width: 100%;
     font-size: 25px;
-    
-    }
-    .hero-image p {
-        font-size: 20px;
-        
-    }
-    .service-row img {
-        width: 50%;
-    }
-    .servicebtn{
-       margin-left: 50px;
-    }
-    .reason {
-        text-align: center;
-    }
-    .reason-textcenter {
-        padding:25px;
-        margin-right: 0;
-    }
-    /* .reasonbtn {
+  }
+  .hero-image p {
+    font-size: 20px;
+  }
+  .service-row img {
+    width: 50%;
+  }
+  .servicebtn {
+    margin-left: 50px;
+  }
+  .reason {
+    text-align: center;
+  }
+  .reason-textcenter {
+    padding: 25px;
+    margin-right: 0;
+  }
+  /* .reasonbtn {
         margin-left:50px;
     } */
-    .footer {
-        width: 100%;
-        flex-direction: column; 
-        justify-content: flex-start;
-    }
-    .fot-logo {
-        margin: 0 auto;
-        padding-right: 0;
-    }
-    .box-adress {
-        padding: 25px 0;
-    }
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .fot-logo {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+  .box-adress {
+    padding: 25px 0;
+  }
 }
 
-
-@media(max-width:1150px) {
-    /*モーダル*/
+@media (max-width: 1150px) {
+  /*モーダル*/
   .signup-modal-wrapper {
     position: fixed;
     top: 0;
@@ -66,7 +63,7 @@
     z-index: 100;
     display: none;
   }
-  
+
   .modal {
     position: absolute;
     top: 20%;
@@ -86,159 +83,155 @@
     cursor: pointer;
   }
 
-    header {
-        width: 100%;
-        justify-content:space-between;
-        margin: 0 auto;
-    }
-    .head-list {
-        display: none;
-    }
-    .hanbar {
-        display: block;
-        padding-right: 20px;
-    }
-    .hero-image {
-        width: 100%;
-    }
-    .hero-text h2 {
-        font-size: 25px;
-    }
-    .hero-image p {
-        font-size: 10px;
-    }
-    .heikei {
-        width: 100%;
-        background-image: none;
-    }
-    .service-text {
-        width: 100%; 
-        padding:0 30px;   
-    }
-    .service-text p{
-        margin-bottom:10px;
-    }
-    .service-wrapper {
-        width: 100%;
-        flex-wrap: wrap;
-        height: auto;
-       
-    }
-    .service-row {
-        width: 100%;
-        display: flex;
-        flex-direction:row;
-        padding:30px auto ;
-        height: 200px; 
-        box-shadow: none;
-    }
-    .bottom-text {
-        font-size: 13px;
-    }
-    .btn {
-        width:300px;
-    }
-    
-    .reasonbtn {
-        background-color: #092c54;
-    }
-    
-    .reason-text {
-        width: 100%;
-        opacity: 0.7;
-    }
-
-    .infos {
-        width: 100%;
-        margin: 50px auto;
-        font-size: 0.8em;
-    }
-
-    .in-le-wp {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .in-ri-wp {
-        width: 100%;
-    }
-    .combtn,
-    .recbtn {
-        margin: 20px auto;
-        
-    }
-    .recbtn {
-        margin-bottom: 80px;
-    }
-
-    .news {
-        padding: 20px;
-    }
-    .news-bord {
-        font-size: 0.8em;
-       
-    }
-    .news-bord td {
-        padding: 20px 0;
-    }
-    .news-title {
-        margin:0 0 20px 0;
-        border-bottom: 1px solid #ddd;
-        width: 50%;
-        text-align: center;
-        padding: 20px;
-    }
-    .contact {
-        font-size: 0.8em;
-        width: 100%;
-    }
-    
-    .fot-logo {
-        padding-bottom: 50px;
-    }
-    .box-adress {
+  header {
+    width: 100%;
+    justify-content: space-between;
     margin: 0 auto;
-    }
-   
-    .fot-list {
-        width: 100%;
-        flex-direction: column;
-        height: auto;
-    }
+  }
+  .head-list {
+    display: none;
+  }
+  .hanbar {
+    display: block;
+    padding-right: 20px;
+  }
+  .hero-image {
+    width: 100%;
+  }
+  .hero-text h2 {
+    font-size: 25px;
+  }
+  .hero-image p {
+    font-size: 10px;
+  }
+  .heikei {
+    width: 100%;
+    background-image: none;
+  }
+  .service-text {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .service-text p {
+    margin-bottom: 10px;
+  }
+  .service-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .service-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px auto;
+    height: 200px;
+    box-shadow: none;
+  }
+  .bottom-text {
+    font-size: 13px;
+  }
+  .btn {
+    width: 300px;
+  }
 
-    .fot-list a {
-/*         font-size:20px; */
-        padding-left:0;
-        border-bottom: 1px solid #ddd;
-        display: inline-block;
-        text-align: center;
-        
-    }
+  .reasonbtn {
+    background-color: #092c54;
+  }
 
-    .fot-wrapper {
-        width: 100%;
-        
-        flex-direction: column;
-        justify-content: center;
-        line-height:65px;
-        margin: 0 auto;
-    }
-    .fot-left{
-        font-size: 14px;
-    }
-    .fot-right {
-        font-size:12px
-    }      
-    footer {
-        height: auto;
-    }
-    /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+  .reason-text {
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .infos {
+    width: 100%;
+    margin: 50px auto;
+    font-size: 0.8em;
+  }
+
+  .in-le-wp {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .in-ri-wp {
+    width: 100%;
+  }
+  .combtn,
+  .recbtn {
+    margin: 20px auto;
+  }
+  .recbtn {
+    margin-bottom: 80px;
+  }
+
+  .news {
+    padding: 20px;
+  }
+  .news-bord {
+    font-size: 0.8em;
+  }
+  .news-bord td {
+    padding: 20px 0;
+  }
+  .news-title {
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #ddd;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+  }
+  .contact {
+    font-size: 0.8em;
+    width: 100%;
+  }
+
+  .fot-logo {
+    padding-bottom: 50px;
+  }
+  .box-adress {
+    margin: 0 auto;
+  }
+
+  .fot-list {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .fot-list a {
+    /*         font-size:20px; */
+    padding-left: 0;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .fot-wrapper {
+    width: 100%;
+
+    flex-direction: column;
+    justify-content: center;
+    line-height: 65px;
+    margin: 0 auto;
+  }
+  .fot-left {
+    font-size: 14px;
+  }
+  .fot-right {
+    font-size: 12px;
+  }
+  footer {
+    height: auto;
+  }
+  /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 　　 アコーディオン メニュー
     ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
-    /* バーカー */
-.burger {
+  /* バーカー */
+  .burger {
     width: 60px;
     height: 60px;
-    background-image: url('burger.png');
+    background-image: url("burger.png");
     background-size: 44px;
     background-position: center;
     background-repeat: no-repeat;
@@ -247,22 +240,21 @@
     /* バーガーを押下した後もバーガーを隠さない */
     position: relative;
     z-index: 2;
-}
-.burger:hover {
+  }
+  .burger:hover {
     background-color: rgb(156, 170, 226);
     border-radius: 4px;
-}
-.burger.is-active {
-    background-image: url('close.png')   
-}
+  }
+  .burger.is-active {
+    background-image: url("close.png");
+  }
 
-
-.menu {
+  .menu {
     /* vh画面の高さ、vw幅一杯 */
     width: 100vw;
     height: 100vh;
     color: rgb(250, 244, 244);
-    background-color:tomato;
+    background-color: tomato;
     opacity: 0.9;
     display: flex;
     align-items: center;
@@ -272,19 +264,19 @@
     top: 0;
     left: 0;
     z-index: 1;
-    display: none;  
-}
-.menu.is-active {
+    display: none;
+  }
+  .menu.is-active {
     display: flex;
-}
-.menus{
+  }
+  .menus {
     display: block;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 900;
     border-bottom: 1px solid #f4f6f8;
-}
-.click-head a {
+  }
+  .click-head a {
     color: #f5f8f9;
     padding: 20px;
-}
+  }
 }
